@@ -93,7 +93,7 @@ const code = ref<string>('');
                         <span>or you can </span>
                         <button
                             type="button"
-                            class="text-foreground underline decoration-neutral-300 underline-offset-4 transition-colors duration-300 ease-out hover:decoration-current! dark:decoration-neutral-500"
+                            class="text-foreground underline decoration-neutral-300 underline-offset-4 transition-colors duration-300 ease-out hover:decoration-current!"
                             @click="() => toggleRecoveryMode(clearErrors)"
                         >
                             {{ authConfigContent.toggleText }}
@@ -125,7 +125,7 @@ const code = ref<string>('');
                         <span>or you can </span>
                         <button
                             type="button"
-                            class="text-foreground underline decoration-neutral-300 underline-offset-4 transition-colors duration-300 ease-out hover:decoration-current! dark:decoration-neutral-500"
+                            class="text-foreground underline decoration-neutral-300 underline-offset-4 transition-colors duration-300 ease-out hover:decoration-current!"
                             @click="() => toggleRecoveryMode(clearErrors)"
                         >
                             {{ authConfigContent.toggleText }}
